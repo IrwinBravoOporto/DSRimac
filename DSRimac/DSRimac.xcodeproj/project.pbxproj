@@ -7,12 +7,89 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41651EA32A0E8D69004A9B72 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41651EA22A0E8D69004A9B72 /* Global.swift */; };
+		41651EA52A0E8D70004A9B72 /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41651EA42A0E8D70004A9B72 /* UIFont+Extensions.swift */; };
+		41651ECB2A0E8D7F004A9B72 /* BRSonoma-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41651EA72A0E8D7F004A9B72 /* BRSonoma-Black.ttf */; };
+		41651ECC2A0E8D7F004A9B72 /* BRSonoma-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41651EA82A0E8D7F004A9B72 /* BRSonoma-BoldItalic.ttf */; };
+		41651ECD2A0E8D7F004A9B72 /* BRSonoma-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41651EA92A0E8D7F004A9B72 /* BRSonoma-ThinItalic.ttf */; };
+		41651ECE2A0E8D7F004A9B72 /* BRSonoma-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41651EAA2A0E8D7F004A9B72 /* BRSonoma-ExtraLight.ttf */; };
+		41651ECF2A0E8D7F004A9B72 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41651EAB2A0E8D7F004A9B72 /* Poppins-ExtraLight.ttf */; };
+		41651ED02A0E8D7F004A9B72 /* ASMAN.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41651EAC2A0E8D7F004A9B72 /* ASMAN.ttf */; };
+		41651ED12A0E8D7F004A9B72 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41651EAD2A0E8D7F004A9B72 /* Poppins-ThinItalic.ttf */; };
+		41651ED22A0E8D7F004A9B72 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41651EAE2A0E8D7F004A9B72 /* Poppins-ExtraLightItalic.ttf */; };
+		41651ED32A0E8D7F004A9B72 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41651EAF2A0E8D7F004A9B72 /* Poppins-BoldItalic.ttf */; };
+		41651ED42A0E8D7F004A9B72 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41651EB02A0E8D7F004A9B72 /* Poppins-Light.ttf */; };
+		41651ED52A0E8D7F004A9B72 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41651EB12A0E8D7F004A9B72 /* Poppins-Medium.ttf */; };
+		41651ED62A0E8D7F004A9B72 /* BRSonoma-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41651EB22A0E8D7F004A9B72 /* BRSonoma-ExtraLightItalic.ttf */; };
+		41651ED72A0E8D7F004A9B72 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41651EB32A0E8D7F004A9B72 /* Poppins-SemiBoldItalic.ttf */; };
+		41651ED82A0E8D7F004A9B72 /* BRSonoma-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41651EB42A0E8D7F004A9B72 /* BRSonoma-RegularItalic.ttf */; };
+		41651ED92A0E8D7F004A9B72 /* BRSonoma-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41651EB52A0E8D7F004A9B72 /* BRSonoma-SemiBoldItalic.ttf */; };
+		41651EDA2A0E8D7F004A9B72 /* BRSonoma-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41651EB62A0E8D7F004A9B72 /* BRSonoma-SemiBold.ttf */; };
+		41651EDB2A0E8D7F004A9B72 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41651EB72A0E8D7F004A9B72 /* Poppins-ExtraBoldItalic.ttf */; };
+		41651EDC2A0E8D7F004A9B72 /* BRSonoma-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41651EB82A0E8D7F004A9B72 /* BRSonoma-Regular.ttf */; };
+		41651EDD2A0E8D7F004A9B72 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41651EB92A0E8D7F004A9B72 /* Poppins-ExtraBold.ttf */; };
+		41651EDE2A0E8D7F004A9B72 /* BRSonoma-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41651EBA2A0E8D7F004A9B72 /* BRSonoma-BlackItalic.ttf */; };
+		41651EDF2A0E8D7F004A9B72 /* sewer.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41651EBB2A0E8D7F004A9B72 /* sewer.ttf */; };
+		41651EE02A0E8D7F004A9B72 /* BRSonoma-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41651EBC2A0E8D7F004A9B72 /* BRSonoma-Thin.ttf */; };
+		41651EE12A0E8D7F004A9B72 /* BRSonoma-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41651EBD2A0E8D7F004A9B72 /* BRSonoma-Bold.ttf */; };
+		41651EE22A0E8D7F004A9B72 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41651EBE2A0E8D7F004A9B72 /* Poppins-BlackItalic.ttf */; };
+		41651EE32A0E8D7F004A9B72 /* BRSonoma-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41651EBF2A0E8D7F004A9B72 /* BRSonoma-Medium.ttf */; };
+		41651EE42A0E8D7F004A9B72 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41651EC02A0E8D7F004A9B72 /* Poppins-Regular.ttf */; };
+		41651EE52A0E8D7F004A9B72 /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41651EC12A0E8D7F004A9B72 /* Poppins-LightItalic.ttf */; };
+		41651EE62A0E8D7F004A9B72 /* BRSonoma-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41651EC22A0E8D7F004A9B72 /* BRSonoma-MediumItalic.ttf */; };
+		41651EE72A0E8D7F004A9B72 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41651EC32A0E8D7F004A9B72 /* Poppins-Bold.ttf */; };
+		41651EE82A0E8D7F004A9B72 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41651EC42A0E8D7F004A9B72 /* Poppins-Black.ttf */; };
+		41651EE92A0E8D7F004A9B72 /* BRSonoma-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41651EC52A0E8D7F004A9B72 /* BRSonoma-Light.ttf */; };
+		41651EEA2A0E8D7F004A9B72 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41651EC62A0E8D7F004A9B72 /* Poppins-Thin.ttf */; };
+		41651EEB2A0E8D7F004A9B72 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41651EC72A0E8D7F004A9B72 /* Poppins-SemiBold.ttf */; };
+		41651EEC2A0E8D7F004A9B72 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41651EC82A0E8D7F004A9B72 /* Poppins-Italic.ttf */; };
+		41651EED2A0E8D7F004A9B72 /* BRSonoma-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41651EC92A0E8D7F004A9B72 /* BRSonoma-LightItalic.ttf */; };
+		41651EEE2A0E8D7F004A9B72 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41651ECA2A0E8D7F004A9B72 /* Poppins-MediumItalic.ttf */; };
 		FDE51AA12A054C90007F9109 /* DSRimac.h in Headers */ = {isa = PBXBuildFile; fileRef = FDE51AA02A054C90007F9109 /* DSRimac.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FDE51AA82A054CB2007F9109 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE51AA72A054CB2007F9109 /* Validator.swift */; };
 		FDE51ACF2A099F57007F9109 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE51ACE2A099F57007F9109 /* UIColor+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41651EA22A0E8D69004A9B72 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		41651EA42A0E8D70004A9B72 /* UIFont+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
+		41651EA72A0E8D7F004A9B72 /* BRSonoma-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BRSonoma-Black.ttf"; sourceTree = "<group>"; };
+		41651EA82A0E8D7F004A9B72 /* BRSonoma-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BRSonoma-BoldItalic.ttf"; sourceTree = "<group>"; };
+		41651EA92A0E8D7F004A9B72 /* BRSonoma-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BRSonoma-ThinItalic.ttf"; sourceTree = "<group>"; };
+		41651EAA2A0E8D7F004A9B72 /* BRSonoma-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BRSonoma-ExtraLight.ttf"; sourceTree = "<group>"; };
+		41651EAB2A0E8D7F004A9B72 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		41651EAC2A0E8D7F004A9B72 /* ASMAN.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ASMAN.ttf; sourceTree = "<group>"; };
+		41651EAD2A0E8D7F004A9B72 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		41651EAE2A0E8D7F004A9B72 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		41651EAF2A0E8D7F004A9B72 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		41651EB02A0E8D7F004A9B72 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		41651EB12A0E8D7F004A9B72 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		41651EB22A0E8D7F004A9B72 /* BRSonoma-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BRSonoma-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		41651EB32A0E8D7F004A9B72 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		41651EB42A0E8D7F004A9B72 /* BRSonoma-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BRSonoma-RegularItalic.ttf"; sourceTree = "<group>"; };
+		41651EB52A0E8D7F004A9B72 /* BRSonoma-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BRSonoma-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		41651EB62A0E8D7F004A9B72 /* BRSonoma-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BRSonoma-SemiBold.ttf"; sourceTree = "<group>"; };
+		41651EB72A0E8D7F004A9B72 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		41651EB82A0E8D7F004A9B72 /* BRSonoma-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BRSonoma-Regular.ttf"; sourceTree = "<group>"; };
+		41651EB92A0E8D7F004A9B72 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		41651EBA2A0E8D7F004A9B72 /* BRSonoma-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BRSonoma-BlackItalic.ttf"; sourceTree = "<group>"; };
+		41651EBB2A0E8D7F004A9B72 /* sewer.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sewer.ttf; sourceTree = "<group>"; };
+		41651EBC2A0E8D7F004A9B72 /* BRSonoma-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BRSonoma-Thin.ttf"; sourceTree = "<group>"; };
+		41651EBD2A0E8D7F004A9B72 /* BRSonoma-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BRSonoma-Bold.ttf"; sourceTree = "<group>"; };
+		41651EBE2A0E8D7F004A9B72 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		41651EBF2A0E8D7F004A9B72 /* BRSonoma-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BRSonoma-Medium.ttf"; sourceTree = "<group>"; };
+		41651EC02A0E8D7F004A9B72 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		41651EC12A0E8D7F004A9B72 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		41651EC22A0E8D7F004A9B72 /* BRSonoma-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BRSonoma-MediumItalic.ttf"; sourceTree = "<group>"; };
+		41651EC32A0E8D7F004A9B72 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		41651EC42A0E8D7F004A9B72 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		41651EC52A0E8D7F004A9B72 /* BRSonoma-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BRSonoma-Light.ttf"; sourceTree = "<group>"; };
+		41651EC62A0E8D7F004A9B72 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		41651EC72A0E8D7F004A9B72 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		41651EC82A0E8D7F004A9B72 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		41651EC92A0E8D7F004A9B72 /* BRSonoma-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BRSonoma-LightItalic.ttf"; sourceTree = "<group>"; };
+		41651ECA2A0E8D7F004A9B72 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		41651EEF2A0E8DB1004A9B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		FDE51A9D2A054C90007F9109 /* DSRimac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DSRimac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDE51AA02A054C90007F9109 /* DSRimac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSRimac.h; sourceTree = "<group>"; };
 		FDE51AA72A054CB2007F9109 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
@@ -30,6 +107,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41651EA62A0E8D7F004A9B72 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				41651EA72A0E8D7F004A9B72 /* BRSonoma-Black.ttf */,
+				41651EA82A0E8D7F004A9B72 /* BRSonoma-BoldItalic.ttf */,
+				41651EA92A0E8D7F004A9B72 /* BRSonoma-ThinItalic.ttf */,
+				41651EAA2A0E8D7F004A9B72 /* BRSonoma-ExtraLight.ttf */,
+				41651EAB2A0E8D7F004A9B72 /* Poppins-ExtraLight.ttf */,
+				41651EAC2A0E8D7F004A9B72 /* ASMAN.ttf */,
+				41651EAD2A0E8D7F004A9B72 /* Poppins-ThinItalic.ttf */,
+				41651EAE2A0E8D7F004A9B72 /* Poppins-ExtraLightItalic.ttf */,
+				41651EAF2A0E8D7F004A9B72 /* Poppins-BoldItalic.ttf */,
+				41651EB02A0E8D7F004A9B72 /* Poppins-Light.ttf */,
+				41651EB12A0E8D7F004A9B72 /* Poppins-Medium.ttf */,
+				41651EB22A0E8D7F004A9B72 /* BRSonoma-ExtraLightItalic.ttf */,
+				41651EB32A0E8D7F004A9B72 /* Poppins-SemiBoldItalic.ttf */,
+				41651EB42A0E8D7F004A9B72 /* BRSonoma-RegularItalic.ttf */,
+				41651EB52A0E8D7F004A9B72 /* BRSonoma-SemiBoldItalic.ttf */,
+				41651EB62A0E8D7F004A9B72 /* BRSonoma-SemiBold.ttf */,
+				41651EB72A0E8D7F004A9B72 /* Poppins-ExtraBoldItalic.ttf */,
+				41651EB82A0E8D7F004A9B72 /* BRSonoma-Regular.ttf */,
+				41651EB92A0E8D7F004A9B72 /* Poppins-ExtraBold.ttf */,
+				41651EBA2A0E8D7F004A9B72 /* BRSonoma-BlackItalic.ttf */,
+				41651EBB2A0E8D7F004A9B72 /* sewer.ttf */,
+				41651EBC2A0E8D7F004A9B72 /* BRSonoma-Thin.ttf */,
+				41651EBD2A0E8D7F004A9B72 /* BRSonoma-Bold.ttf */,
+				41651EBE2A0E8D7F004A9B72 /* Poppins-BlackItalic.ttf */,
+				41651EBF2A0E8D7F004A9B72 /* BRSonoma-Medium.ttf */,
+				41651EC02A0E8D7F004A9B72 /* Poppins-Regular.ttf */,
+				41651EC12A0E8D7F004A9B72 /* Poppins-LightItalic.ttf */,
+				41651EC22A0E8D7F004A9B72 /* BRSonoma-MediumItalic.ttf */,
+				41651EC32A0E8D7F004A9B72 /* Poppins-Bold.ttf */,
+				41651EC42A0E8D7F004A9B72 /* Poppins-Black.ttf */,
+				41651EC52A0E8D7F004A9B72 /* BRSonoma-Light.ttf */,
+				41651EC62A0E8D7F004A9B72 /* Poppins-Thin.ttf */,
+				41651EC72A0E8D7F004A9B72 /* Poppins-SemiBold.ttf */,
+				41651EC82A0E8D7F004A9B72 /* Poppins-Italic.ttf */,
+				41651EC92A0E8D7F004A9B72 /* BRSonoma-LightItalic.ttf */,
+				41651ECA2A0E8D7F004A9B72 /* Poppins-MediumItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		FDE51A932A054C90007F9109 = {
 			isa = PBXGroup;
 			children = (
@@ -49,7 +169,9 @@
 		FDE51A9F2A054C90007F9109 /* DSRimac */ = {
 			isa = PBXGroup;
 			children = (
+				41651EEF2A0E8DB1004A9B72 /* Info.plist */,
 				FDE51AA02A054C90007F9109 /* DSRimac.h */,
+				41651EA62A0E8D7F004A9B72 /* Fonts */,
 				FDE51ACD2A099EFC007F9109 /* Extensions */,
 				FDE51AA72A054CB2007F9109 /* Validator.swift */,
 			);
@@ -59,6 +181,8 @@
 		FDE51ACD2A099EFC007F9109 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				41651EA42A0E8D70004A9B72 /* UIFont+Extensions.swift */,
+				41651EA22A0E8D69004A9B72 /* Global.swift */,
 				FDE51ACE2A099F57007F9109 /* UIColor+Extensions.swift */,
 			);
 			path = Extensions;
@@ -134,6 +258,42 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41651ED32A0E8D7F004A9B72 /* Poppins-BoldItalic.ttf in Resources */,
+				41651EE92A0E8D7F004A9B72 /* BRSonoma-Light.ttf in Resources */,
+				41651ED42A0E8D7F004A9B72 /* Poppins-Light.ttf in Resources */,
+				41651EE02A0E8D7F004A9B72 /* BRSonoma-Thin.ttf in Resources */,
+				41651ED52A0E8D7F004A9B72 /* Poppins-Medium.ttf in Resources */,
+				41651EE22A0E8D7F004A9B72 /* Poppins-BlackItalic.ttf in Resources */,
+				41651EE32A0E8D7F004A9B72 /* BRSonoma-Medium.ttf in Resources */,
+				41651EE62A0E8D7F004A9B72 /* BRSonoma-MediumItalic.ttf in Resources */,
+				41651ED72A0E8D7F004A9B72 /* Poppins-SemiBoldItalic.ttf in Resources */,
+				41651ED82A0E8D7F004A9B72 /* BRSonoma-RegularItalic.ttf in Resources */,
+				41651ED22A0E8D7F004A9B72 /* Poppins-ExtraLightItalic.ttf in Resources */,
+				41651ECF2A0E8D7F004A9B72 /* Poppins-ExtraLight.ttf in Resources */,
+				41651EE72A0E8D7F004A9B72 /* Poppins-Bold.ttf in Resources */,
+				41651EE12A0E8D7F004A9B72 /* BRSonoma-Bold.ttf in Resources */,
+				41651ECC2A0E8D7F004A9B72 /* BRSonoma-BoldItalic.ttf in Resources */,
+				41651ED92A0E8D7F004A9B72 /* BRSonoma-SemiBoldItalic.ttf in Resources */,
+				41651ECE2A0E8D7F004A9B72 /* BRSonoma-ExtraLight.ttf in Resources */,
+				41651ED02A0E8D7F004A9B72 /* ASMAN.ttf in Resources */,
+				41651EEC2A0E8D7F004A9B72 /* Poppins-Italic.ttf in Resources */,
+				41651EE42A0E8D7F004A9B72 /* Poppins-Regular.ttf in Resources */,
+				41651EDD2A0E8D7F004A9B72 /* Poppins-ExtraBold.ttf in Resources */,
+				41651ECD2A0E8D7F004A9B72 /* BRSonoma-ThinItalic.ttf in Resources */,
+				41651EEA2A0E8D7F004A9B72 /* Poppins-Thin.ttf in Resources */,
+				41651EDF2A0E8D7F004A9B72 /* sewer.ttf in Resources */,
+				41651EDE2A0E8D7F004A9B72 /* BRSonoma-BlackItalic.ttf in Resources */,
+				41651EEE2A0E8D7F004A9B72 /* Poppins-MediumItalic.ttf in Resources */,
+				41651EEB2A0E8D7F004A9B72 /* Poppins-SemiBold.ttf in Resources */,
+				41651EED2A0E8D7F004A9B72 /* BRSonoma-LightItalic.ttf in Resources */,
+				41651EDC2A0E8D7F004A9B72 /* BRSonoma-Regular.ttf in Resources */,
+				41651ED62A0E8D7F004A9B72 /* BRSonoma-ExtraLightItalic.ttf in Resources */,
+				41651EE82A0E8D7F004A9B72 /* Poppins-Black.ttf in Resources */,
+				41651ED12A0E8D7F004A9B72 /* Poppins-ThinItalic.ttf in Resources */,
+				41651EDA2A0E8D7F004A9B72 /* BRSonoma-SemiBold.ttf in Resources */,
+				41651ECB2A0E8D7F004A9B72 /* BRSonoma-Black.ttf in Resources */,
+				41651EE52A0E8D7F004A9B72 /* Poppins-LightItalic.ttf in Resources */,
+				41651EDB2A0E8D7F004A9B72 /* Poppins-ExtraBoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +306,8 @@
 			files = (
 				FDE51AA82A054CB2007F9109 /* Validator.swift in Sources */,
 				FDE51ACF2A099F57007F9109 /* UIColor+Extensions.swift in Sources */,
+				41651EA52A0E8D70004A9B72 /* UIFont+Extensions.swift in Sources */,
+				41651EA32A0E8D69004A9B72 /* Global.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +446,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DSRimac/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -315,6 +478,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DSRimac/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
