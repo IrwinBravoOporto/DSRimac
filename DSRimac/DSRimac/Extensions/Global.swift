@@ -57,12 +57,12 @@ class Constants {
     static let lineHeight11XLarge = 96.0
     static let lineHeight12XLarge = 128.0
 
-    static let letterSpacingSmall = -1
-    static let letterSpacingMedium = 0
+    static let letterSpacingSmall = -1.0
+    static let letterSpacingMedium = 0.0
     static let letterSpacingLarge = 0.1
     static let letterSpacingXLarge = 0.2
     static let letterSpacing2XLarge = 0.4
-    static let letterSpacing3XLarge = 1
+    static let letterSpacing3XLarge = 1.0
 
     static let spacingSmall = 4
     static let spacingMedium = 8

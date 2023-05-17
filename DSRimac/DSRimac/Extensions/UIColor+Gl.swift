@@ -55,6 +55,10 @@ extension UIColor {
     public static var colorEffect80: UIColor {
         return hexStringToUIColor(hex: "#0D1985")
     }
+    public static var colorEffect100: UIColor {
+        return hexStringToUIColor(hex: "#09081F")
+    }
+
     public static var colorTransparent: UIColor {
         return hexStringToUIColor(hex: "#00FFFFFF")
     }
